@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 original_image = Image.open('original.jpg').convert("RGBA")
-original_image_array = np.array(original_image)
+original_image_array = np.array(original_image).astype(np.float32)
 print(original_image_array.shape)
 
 rgb_image_array = original_image_array[:, :, :3]
