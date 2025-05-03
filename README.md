@@ -1,20 +1,33 @@
 
-# SnaPy 🖼️✨
+# 🖼️ SnaPy - Image Processor CLI
 
-**SnaPy** is a simple, interactive Python application that lets you apply popular image filters to an image using NumPy and Matplotlib.
+A minimal yet powerful command-line image processing tool using **NumPy** and **Matplotlib**. Perform operations like filters, effects, blurring, sharpening, and edge detection directly on `.npy` image arrays.
+## ✨ Features
 
-## 📦 Features
+- 🎨 **Image Filters** — Enhance your images with filters like Sepia, Grayscale, Negative, Posterize and Solarize.
+- 🌫️ **Blurring** — Apply smoothing effects with Gaussian blur.
+- 🔪 **Sharpening** — Accentuate details and edges.
+- 💫 **Image Effects** — Transform images with effects like Oil Painting and Cartoon Effects.
+- 🧠 **Edge Detection** — Highlight the structure and boundaries within images.
 
-- Apply the following filters to your image:
-  - ✅ Sepia
-  - ✅ Grayscale
-  - ✅ Posterize
-  - ✅ Negative
-  - ✅ Solarize
-- View side-by-side comparison of the original and filtered image.
-- Lightweight and easy to run.
+---
 
-## 🧠 Tech Stack
+## 🚀 Getting Started
 
-- [NumPy](https://numpy.org/)
-- [Matplotlib](https://matplotlib.org/)
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/image-processor-cli.git
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Add your image in the root directory and modify image name in the img_to_array.py file
+```bash
+original_image = Image.open('your_image_path').convert("RGBA")
+```
+### 4. Run the code
+```bash
+python main.py
+```
