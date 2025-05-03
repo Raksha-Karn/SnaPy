@@ -17,7 +17,7 @@ A minimal yet powerful command-line image processing tool using **NumPy** and **
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/image-processor-cli.git
+git clone https://github.com/Raksha-Karn/SnaPy.git
 ```
 ### 2. Install Dependencies
 ```bash
